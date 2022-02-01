@@ -1,7 +1,7 @@
 ## React Router 
 
 
-## [Video Tutorial](https://www.youtube.com/channel/UCKtcuEBjG-8T1HDrpuAprww)
+## [Video Tutorial](https://youtu.be/3kNpIbTEuos)
 ## [Demo link ](https://bw-react-router.netlify.app)
 
 ### Tasks 

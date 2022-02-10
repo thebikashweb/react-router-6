@@ -5,15 +5,21 @@ import InnerContent from './components/InnerContent'
 import Dashboard from './components/Dashboard'
 import Tabs from './components/Tabs'
 import Settings from './components/Settings'
+import Login from './components/Login'
 
 import Tab1 from './components/Tab1'
 import Tab2 from './components/Tab2'
 import Tab3 from './components/Tab3'
 
+import ProtectedRoutes from './components/ProtectedRoutes'
+import PublicRoutes from './components/PublicRoutes'
+
+
 
 const MainRoutes = () => ( 
  
       <Routes>
+        <Route path="/" element={<ProtectedRoutes/>}>
           <Route path="/" element={<InnerContent/>}>
             <Route path="/" element={<Navigate replace to="dashboard" />}/>
             <Route path="dashboard" element={<Dashboard/>}/>
@@ -22,9 +28,14 @@ const MainRoutes = () => (
                 <Route path="tab1" element={<Tab1/>}/>
                 <Route path="tab2" element={<Tab2/>}/>
                 <Route path="tab3" element={<Tab3/>}/>
-            </Route>
-            <Route path="settings" element={<Settings/>}/>
+            </Route>           
+             <Route path="settings" element={<Settings/>}/>            
           </Route>
+        </Route>       
+        
+        <Route path="login" element={<PublicRoutes/>}>
+          <Route path="/login" element={<Login/>}/>
+        </Route>
       </Routes>
 
      

@@ -103,6 +103,16 @@ h2{
     font-size:20px;
     font-weight: 500;
 }
+.login{
+    padding-top:70px;
+    padding-left:40px;
+}
+.login button{
+    margin-top:40px;
+}
+.login p{
+    margin-top:30px;
+}
 .tab_active{
     color:#365262!important;
     text-decoration: underline!important;

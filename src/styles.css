@@ -117,3 +117,29 @@ h2{
     color:#365262!important;
     text-decoration: underline!important;
 }
+.users h1{
+    margin-bottom:20px;
+}
+.users__card{
+    margin-top:40px;
+    border:1px solid #365262;
+    padding:20px;
+}
+.users__card p{
+    margin-bottom: 10px;
+}
+.new-user__form{
+    margin-top:40px;
+   
+}
+.new-user__form-group{
+    margin-top:10px;
+    padding:10px;
+}
+.new-user__form-group input{
+    margin-left:20px;
+    padding:10px 10px;
+}
+.new-user__form-group button{
+    padding:10px;
+}

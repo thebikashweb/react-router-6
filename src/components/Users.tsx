@@ -16,7 +16,7 @@ const Users=(props:any)=> {
     const [users, setUsers]=React.useState<UsersType>([])
 
     React.useEffect(()=>{
-        console.log("Prop from router", props)
+       
         //fetch users from json placeholder
         fetch('https://jsonplaceholder.typicode.com/users')
         .then(response => response.json())

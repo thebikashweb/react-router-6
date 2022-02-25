@@ -22,6 +22,8 @@ import PublicRoutes from './components/PublicRoutes'
 const MainRoutes = () => ( 
  
       <Routes>
+        {/** Protected Routes */}
+        {/** Wrap all Route under ProtectedRoutes element */}
         <Route path="/" element={<ProtectedRoutes/>}>
           <Route path="/" element={<InnerContent/>}>
             <Route path="/" element={<Navigate replace to="dashboard" />}/>
@@ -40,6 +42,8 @@ const MainRoutes = () => (
           </Route>
         </Route>       
         
+         {/** Public Routes */}
+        {/** Wrap all Route under PublicRoutes element */}
         <Route path="login" element={<PublicRoutes/>}>
           <Route path="/login" element={<Login/>}/>
         </Route>

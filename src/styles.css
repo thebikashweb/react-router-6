@@ -143,3 +143,54 @@ h2{
 .new-user__form-group button{
     padding:10px;
 }
+
+.form-row{
+    display: flex;
+    margin-top:40px;
+    align-items: flex-end;
+    margin-bottom:40px;
+}
+.dynamic-form button {
+   padding:10px 10px;
+   max-height: 40px;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right:10px;
+
+}
+
+.input-group input{     
+      padding:10px 10px;
+      margin-top:10px;
+      
+}
+.form-row button {
+   padding:10px 10px;
+   max-height: 40px;
+}
+
+.row-section{
+    margin-top:40px;
+}
+.row-section  h3{
+    color:#365262;
+    margin-top:30px;
+}
+.row-section__inner{
+    border:1px solid grey;
+    padding:20px;
+    margin-bottom:20px;
+}
+.row-section .form-row{
+    margin-top:25px;
+}
+.row-section .btn-primary{
+    margin-top:20px;
+}
+.btn-primary{
+    background-color:#365262;
+    color:white;
+}

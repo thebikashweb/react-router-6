@@ -9,6 +9,7 @@ import Login from "./components/Login"
 import Users from "./components/Users"
 import SingleUser from "./components/SingleUser"
 import NewUser from "./components/NewUser"
+import DynamicForm from "./components/DynamicForm"
 
 import Tab1 from "./components/Tab1"
 import Tab2 from "./components/Tab2"
@@ -35,6 +36,7 @@ const MainRoutes = () => (
 					<Route path="tab3" element={<Tab3 />} />
 				</Route>
 				<Route path="settings" element={<Settings />} />
+				<Route path="dynamic-form" element={<DynamicForm />} />
 				<Route
 					path="users"
 					element={<Users extraItem="test extra item from router" />}
